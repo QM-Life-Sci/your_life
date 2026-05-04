@@ -1,0 +1,118 @@
+---
+title: "Your New Job"
+subtitle: "First version 2016-09-12"
+author: "Kevin Middleton (with input from Libby King)"
+date: 'Last updated: `r Sys.Date()`'
+output:
+  pdf_document:
+    highlight: default
+    toc: no
+    latex_engine: xelatex
+  html_document:
+    theme: united
+    toc: yes
+mainfont: Arial
+monofont: Monaco
+geometry: margin=1in
+fontsize: 11pt
+---
+
+Welcome to your new job. We hope you enjoy it.
+
+Everyone thinks they know what is best, and we do too. Not everyone will agree with all these ideas, but most people will agree with most of them
+
+# Basics
+
+## Get used to being busy
+
+This is your new life:
+
+!['Your Life'](Your_Life.pdf)
+
+## Read & Write
+
+**You should always be reading something, and you should always be writing something.** What you are reading might be papers for your comps/orals, the project/paper you are working on, papers for the next project/paper you are working on, or, when you have a little "free" time, go to your *To Be Read* folder.
+
+What? You don't have a *To Be Read* folder? Well go make one right now.
+
+*Write everything down*: If you don't like pencils, then use a computer file. Either way, you never know when it might be useful in the future.
+
+## Present & Get Teaching Experience
+
+You will, for the rest of your career, be presenting something. One of your jobs as a scientist and as a teacher is to take complicated ideas and explain them in ways that people can understand.
+
+"Teaching" and "Presenting your research" are not really that different. Both involve explanations of complex information to only marginally interested audiences. Get used to taking in front of groups of people. It is a skill that can be learned.
+
+You don't have to like it, but you should try to get better at it.
+
+*Mentoring undergraduates*: This is a great way to learn good explaining skills, patience, and the ability to let other people make mistakes with your science (which will serve you well in the future).
+
+# Become a good scientific citizen
+
+## Know your history
+
+Learn the history of your advisors and then of your field (who begat whom). Your training will be biased by your mentors. Learn where their biases came from.
+
+## Subscribe to journal tables of contents
+
+- You never know what new ideas, teachniques, or methods will come from keeping up with the literature. 
+- Learn who is doing what. These are the people who are reviewing your papers and grants and may be interviewing you for a job.
+
+## Help people find you
+
+- Maintain a professional webpage. A free (Google) site is better than no site.
+- Make a habit of keeping your CV updated. Maintain a kitchen sink CV with all of everything you have ever done.
+- Think about lines on your CV.
+
+## Learn to Review
+
+Ask to help with reviews. It's good to know what reviewers look for before you submit your first paper.
+
+## Join your scientific societies
+
+And go to their meetings. There are lots of resources for students. The people you meet at meeting will be your colleagues 20 years from now.
+
+## Apply for Funding
+
+Look for sources of funding. Some are obvious, while others are not.
+
+- SICB: http://www.sicb.org/
+- AAA: http://www.anatomy.org/
+- Sigma Xi: http://www.sigmaxi.org/
+- NSF: http://www.nsfgrfp.org/
+- NIH: http://grants.nih.gov/training/nrsa.htm
+- Leakey Foundation: http://www.leakeyfoundation.org/
+- Wenner-Gren: http://www.wennergren.org/
+- Society X, Y, and Z
+
+# Become an efficient researcher
+
+## Be confident with statistics
+
+- Design thoughtful experiments that can be analyzed. Ask yourself: "what will I do with these data once I have collected them?"
+- Think about how you will load your data into a program for analysis. Rows are individuals, specimens, or observations. Columns are the data for those individuals. Use only 1 header row.
+- One experiment = One data file
+- Store data in Excel; analyze elsewhere. This keeps the data and the analysis separate.
+
+## Learn to program (R, MATLAB, Python)
+
+- Weigh the cost/benefit of automation (time to program vs. time saved by programming). Anything that you do more than once is a candidate for automation.
+- Use a script for your statistical analyses (avoid point and click).
+
+## Keep track of changes
+
+- Use text files as much as possible. Text files can be read now and forever.
+- Learn version control. Git is good: http://git-scm.com/
+
+## Learn to make good figures
+
+- http://www.edwardtufte.com/tufte/
+- http://junkcharts.typepad.com/
+
+## Use some kind of software to manage references/PDFs
+
+Try them all and pick the one you like best.
+
+# Is there a better way to do this?
+
+Ask yourself that question often. There may well be.
