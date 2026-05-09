@@ -2,10 +2,12 @@
 title: "Your New Job"
 subtitle: "First version 2016-09-12"
 author: "Kevin Middleton (with input from Libby King)"
-date: 2026-05-02
+date: 2026-05-08
 format:
   pdf:
     toc: false
+    documentclass: article
+    papersize: letter
   html:
     toc: true
     toc_depth: 4
@@ -13,7 +15,7 @@ format:
     embed-resources: true
 mainfont: Arial
 monofont: Monaco
-geometry: margin=0.5in
+geometry: margin=1in
 fontsize: 11pt
 ---
 
@@ -27,7 +29,7 @@ Everyone thinks they know what is best, and we do too. Not everyone will agree w
 
 This is your new life:
 
-!['Your Life'](Your_Life.pdf){fig-height="200px"}
+!['Your Life', by Tony Long.](Your_Life.png){fig-height="200px"}
 
 
 ## Read & Write
@@ -35,6 +37,7 @@ This is your new life:
 **You should always be reading something, and you should always be writing something.**
 
 - What you are reading might be papers for your comps/orals, the project/paper you are working on, papers for the next project/paper you are working on, or, when you have a little "free" time, go to your *To Read* folder.
+- What you are writing might only be notes on what you are reading.
 
 What? You don't have a *To Read* folder? Go make one right now.
 
@@ -43,11 +46,20 @@ What? You don't have a *To Read* folder? Go make one right now.
 
 # Become an efficient researcher
 
+## Develop a "Second Brain"
+
+- You will need some way to store and retrieve information, a "personalized knowledge management system"
+- Use some kind of software to manage references and their associated PDFs. Try them all and pick the one you like best.
+- Use a system to collect and record notes, ideas, etc. like Notion or Obsidian.
+- Searchable is better than not searchable.
+- Internally linkable is better than not linkable.
+
+
 ## Be confident with statistics
 
 - Design thoughtful experiments that can be analyzed. Ask yourself: "what will I do with these data once I have collected them?"
 - Think about how you will load your data into a program for analysis. Rows are individuals, specimens, or observations. Columns are the data for those individuals. Use only 1 header row.
-- One experiment = One data file
+- One experiment == One data file
 - Store data in Excel; analyze elsewhere. This keeps the data and the analysis separate.
 
 ## Learn to program (R, Python, etc.)
@@ -58,16 +70,13 @@ What? You don't have a *To Read* folder? Go make one right now.
 ## Keep track of changes
 
 - Use text files as much as possible. Text files can be read now and forever.
-- Learn version control. Git is good: http://git-scm.com/
+- Learn version control. [Git](http://git-scm.com/) is good.
 
 ## Learn to make good figures
 
-- http://www.edwardtufte.com/tufte/
-- http://junkcharts.typepad.com/
-
-## Use some kind of software to manage references/PDFs
-
-Try them all and pick the one you like best.
+- [https://clauswilke.com/dataviz/](https://clauswilke.com/dataviz/)
+- [https://socviz.co/](https://socviz.co/)
+- [http://www.edwardtufte.com/](http://www.edwardtufte.com/)
 
 
 # Present & Get Teaching Experience
@@ -88,12 +97,12 @@ Learn the history of your advisors and then of your field (who begat whom). Your
 
 ## Subscribe to journal tables of contents
 
-- You never know what new ideas, teachniques, or methods will come from keeping up with the literature.
+- You never know what new ideas, techniques, or methods will come from keeping up with the literature.
 - Learn who is doing what. These are the people who are reviewing your papers and grants and may be interviewing you for a job.
 
 ## Help people find you
 
-- Maintain a professional webpage. A free (Google) site is better than no site.
+- Maintain a professional webpage. A free (github or googlw) site is better than no site.
 - Make a habit of keeping your CV updated. Maintain a kitchen sink CV with all of everything you have ever done.
 - Think about lines on your CV.
 
@@ -107,4 +116,4 @@ And go to their meetings. There are lots of resources for students. The people y
 
 # Is there a better way to do this?
 
-Ask yourself that question often. There may well be.
+Ask yourself that question often. There may well be. (If you are writing a lot of matplotlib code, the answer is definitely yes.)
