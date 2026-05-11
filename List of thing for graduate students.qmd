@@ -2,7 +2,7 @@
 title: "Your New Job"
 subtitle: "First version 2016-09-12"
 author: "Kevin Middleton (with input from Libby King)"
-date: 2026-05-08
+date: 2026-05-12
 format:
   pdf:
     toc: false
@@ -25,6 +25,7 @@ Everyone thinks they know what is best, and we do too. Not everyone will agree w
 
 # Basics
 
+
 ## Get used to being busy
 
 This is your new life:
@@ -41,45 +42,58 @@ This is your new life:
 
 What? You don't have a *To Read* folder? Go make one right now.
 
-*Write everything down*: If you don't like pencils, then use a computer file. Either way, you never know when it might be useful in the future.
+*Write everything down*: If you don't like writing by hand (which is best for recall), then use a computer file (which is best for searching; see below). Either way, you never know when it might be useful in the future.
 
 
 # Become an efficient researcher
+
 
 ## Develop a "Second Brain"
 
 - You will need some way to store and retrieve information, a "personalized knowledge management system"
 - Use some kind of software to manage references and their associated PDFs. Try them all and pick the one you like best.
-- Use a system to collect and record notes, ideas, etc. like Notion or Obsidian.
+- Use a system to collect and record notes, ideas, etc. like Notion or Obsidian or whatever has replaced them.
 - Searchable is better than not searchable.
 - Internally linkable is better than not linkable.
+- Taggable is better than not taggable
 
 
-## Be confident with statistics
+## Become confident with statistics and experimental design
 
 - Design thoughtful experiments that can be analyzed. Ask yourself: "what will I do with these data once I have collected them?"
 - Think about how you will load your data into a program for analysis. Rows are individuals, specimens, or observations. Columns are the data for those individuals. Use only 1 header row.
 - One experiment == One data file
-- Store data in Excel; analyze elsewhere. This keeps the data and the analysis separate.
+- Store data in one or more files (e.g., csv, Excel); analyze elsewhere. This keeps the data and the analysis separate.
+
 
 ## Learn to program (R, Python, etc.)
 
 - Weigh the cost/benefit of automation (time to program vs. time saved by programming). Anything that you do more than once is a candidate for automation.
 - Use a script for your statistical analyses (avoid point and click).
 
+
+## Practice reproducible research methods
+
+- Learn to get comfortable with quarto and/or jupyter notebooks
+- Analyze your data in a script and save the output (e.g., to HTML)
+- Quarto can do a lot more (CVs, slides, websites, dissertations)
+
+
 ## Keep track of changes
 
 - Use text files as much as possible. Text files can be read now and forever.
 - Learn version control. [Git](http://git-scm.com/) is good.
+- Jupyter notebooks don't version well
 
-## Learn to make good figures
+
+## Learn to make effective figures
 
 - [https://clauswilke.com/dataviz/](https://clauswilke.com/dataviz/)
 - [https://socviz.co/](https://socviz.co/)
 - [http://www.edwardtufte.com/](http://www.edwardtufte.com/)
 
 
-# Present & Get Teaching Experience
+# Present & get teaching experience
 
 You will, for the rest of your career, be presenting something. One of your jobs as a scientist and as a teacher is to take complicated ideas and explain them in ways that people can understand.
 
@@ -89,30 +103,36 @@ You don't have to like it, but you should try to get better at it.
 
 *Mentoring undergraduates*: This is a great way to learn good explaining skills, patience, and the ability to let other people make mistakes with your science (which will serve you well in the future).
 
+
 # Become a good scientific citizen
 
 ## Know your history
 
 Learn the history of your advisors and then of your field (who begat whom). Your training will be biased by your mentors. Learn where their biases came from.
 
+
 ## Subscribe to journal tables of contents
 
 - You never know what new ideas, techniques, or methods will come from keeping up with the literature.
 - Learn who is doing what. These are the people who are reviewing your papers and grants and may be interviewing you for a job.
 
+
 ## Help people find you
 
-- Maintain a professional webpage. A free (github or googlw) site is better than no site.
+- Maintain a professional webpage. A free (github or google) site is better than no site.
 - Make a habit of keeping your CV updated. Maintain a kitchen sink CV with all of everything you have ever done.
 - Think about lines on your CV.
+
 
 ## Learn to Review
 
 Ask to help with reviews. It's good to know what reviewers look for before you submit your first paper.
 
+
 ## Join your scientific societies
 
 And go to their meetings. There are lots of resources for students. The people you meet at meetings will be your colleagues 20 years from now.
+
 
 # Is there a better way to do this?
 
